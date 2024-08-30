@@ -72,7 +72,6 @@ const App: React.FC = () => {
       <Typography variant="h2" component="h1" gutterBottom className="text-center text-4xl font-bold mb-8">
         Cheese & Onion Recipe Book
       </Typography>
-      <img src="https://images.unsplash.com/photo-1721152534202-bc3f56eb41e6?ixid=M3w2MzIxNTd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUwNTQwMTF8&ixlib=rb-4.0.3" alt="Cheese and Onions" className="w-full h-64 object-cover rounded-lg mb-8" />
       <Button variant="contained" color="primary" onClick={() => setModalIsOpen(true)} className="mb-8">
         Add New Recipe
       </Button>
